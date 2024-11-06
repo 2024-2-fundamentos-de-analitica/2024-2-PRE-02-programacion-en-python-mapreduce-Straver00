@@ -128,7 +128,7 @@ def save_output(output_directory, sequence):
     """Save Output"""
     with open(f"{output_directory}/part-00000", "w", encoding="utf-8") as file:
         for key, value in sequence.items():
-            file.write(f"{key}\t{value}\n")
+            file.write(f"{key}\t{value}\n") 
 
 #
 # La siguiente función crea un archivo llamado _SUCCESS en el directorio
